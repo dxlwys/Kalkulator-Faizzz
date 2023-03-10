@@ -41,7 +41,7 @@ numbers = '789456123'
 operators = '/*-+'
 
 layar = Entry(kalkulator, width=16, font=('Helvetica', 26, 'bold'), bg='black', fg='white', bd=0, justify=RIGHT)
-layar.grid(row=0, column=0, columnspan=4)
+layar.grid(row=0, column=0, ipady=8, columnspan=4)
 layar.insert(0, 0)
 
 btn_ac = Button(kalkulator, text='CLEAR', width=16, font=('helvetica', 20), bg='#A5A5A5', activebackground='white',
